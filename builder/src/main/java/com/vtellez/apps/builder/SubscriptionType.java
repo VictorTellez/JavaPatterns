@@ -1,7 +1,9 @@
 package com.vtellez.apps.builder;
 
 /**
- * Created by PC_02 on 18/11/2015.
+ * This enum represents the subscription type of the user.
+ *
+ * Created by Victor Tellez on 18/11/2015.
  */
 public enum SubscriptionType {
 
