@@ -1,1 +1,1 @@
-include ':app', ':factory', ':builder', ':abstract-factory'
+include ':app', ':design-patterns-lib'

@@ -3,10 +3,11 @@ package com.vtellez.apps.javapatterns.factory;
 
 import android.util.Log;
 
-import com.vtellez.apps.factory.method.SwingGraphics;
-import com.vtellez.apps.factory.method.Graphics;
-import com.vtellez.apps.factory.method.Shape;
-import com.vtellez.apps.factory.method.BorderType;
+import com.vtellez.apps.design.patterns.factory.method.BorderType;
+import com.vtellez.apps.design.patterns.factory.method.Graphics;
+import com.vtellez.apps.design.patterns.factory.method.Shape;
+import com.vtellez.apps.design.patterns.factory.method.SwingGraphics;
+
 
 /**
  * This class shows a use case of the Factory method pattern design.
