@@ -3,7 +3,7 @@ package com.vtellez.apps.javapatterns;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.vtellez.apps.javapatterns.factory.FactoryUseCase;
+import com.vtellez.apps.design.patterns.factory.method.FactoryMethodUseCase;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void getFactoryUseCase(){
-        FactoryUseCase factoryUseCase = new FactoryUseCase();
+        FactoryMethodUseCase factoryMethodUseCase = new FactoryMethodUseCase();
     }
 }
