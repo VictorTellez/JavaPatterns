@@ -1,2 +1,2 @@
 # JavaPatterns
-This is a project to show how implement some pattern designs in Java.
+This is a project to show how to implement some design patterns in Java.
