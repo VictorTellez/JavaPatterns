@@ -1,7 +1,9 @@
 package com.vtellez.apps.design.patterns.structural.bridge;
 
 /**
- * Abstraction Imp
+ * This class is the implementation of the {@link Persistence} and allows as to separate the
+ * declaration or abstraction from the implementation.
+ *
  * Created by PC_02 on 25/11/2015.
  */
 public class PersistenceImpl  implements Persistence {
@@ -32,15 +34,21 @@ public class PersistenceImpl  implements Persistence {
     }
 
     /**
+     * Finds a object by Id.
      *
      * @param objectId  id of the object
-     * @return
+     * @return          object
      */
     @Override
     public Object findById(String objectId) {
         return persistenceImplementor.getObject(Long.valueOf(objectId));
     }
 
+    /**
+     * Deletes a object using the id.
+     *
+     * @param objectId  id
+     */
     @Override
     public void deleteById(String objectId) {
         persistenceImplementor.deleteObject(Long.valueOf(objectId));

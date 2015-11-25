@@ -8,14 +8,6 @@ package com.vtellez.apps.design.patterns.structural.bridge;
 public interface PersistenceImplementor {
 
     /**
-     * Saves a object.
-     *
-     * @param object    to be saved
-     * @return          the id of the object in the memory
-     */
-    public long saveObject(Object object);
-
-    /**
      * Deletes a object using its object id.
      *
      * @param objectId  id
@@ -29,4 +21,12 @@ public interface PersistenceImplementor {
      * @return          Object
      */
     public Object getObject(long objectId);
+
+    /**
+     * Saves a object.
+     *
+     * @param object    to be saved
+     * @return          the id of the object in the memory
+     */
+    public long saveObject(Object object);
 }
